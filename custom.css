@@ -1,0 +1,146 @@
+.boxDiv {
+
+         background-color: #f8f9fc;
+	     padding: 20px;
+	     border-radius: 10px;
+	     box-sizing: border-box;
+	     padding-bottom: 20px;
+	     padding-top: 20px
+	    }
+
+   .box {
+	     padding-left: 80px;
+	     padding-right: 80px
+        }
+
+.section1{
+	       background-image: url(http://landrick.react.themesbrand.com/static/media/bg.a1d47780.png); 
+	       /*background-size: cover ;*/
+	       background-position: center;
+   	       background-color: #2f56d4;
+   	       padding-top: 170px;
+   	       padding-bottom: 170px
+   	     }   
+
+	.height-50-px{
+			height: 50px; 
+		}
+
+.boxDiv:hover{ background-color: #007bff;
+	           color: white
+
+}
+
+
+.img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  /*width: 150px;*/
+}
+
+
+.text{
+	  text-align: center;
+	  color: white;
+	  font-size: 45px;
+	  
+}
+
+.heading-text1{
+	  text-align:left;
+
+	  font-size: 30px;
+	  padding-top: 100px;
+	  
+}
+.heading-text2{
+	  text-align:left;
+
+	  font-size: 30px;
+	  
+	  
+}
+.padding-20{
+	  padding: 20px
+
+}
+
+.text1{
+	   text-align: center;
+	   color: #99abeb;
+	   font-size: 18px;
+	   padding-bottom: 10px;
+	   margin-bottom: 50px
+
+}
+
+.div1{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title{
+	letter-spacing: 1px;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 24px
+
+}
+
+.parah{
+	text-align: center;
+	color: #8491a6;
+	margin-right: 300px;
+	margin-left: 300px;
+	margin-bottom: 20PX
+}
+
+.box1{
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #f8f9fc ;
+    box-shadow: 0 10px 25px rgba(60,72,88,.15)!important;
+
+
+}
+
+.avtar{
+	height: 65px;
+	width: 65px;
+}
+
+.avtar1{
+	height: 65px;
+	width: 65px;
+	text-align: center; 
+	display: block;
+	margin-left: 280px;
+	margin-top: 80px;
+	border-radius: 50%;
+}
+
+
+.show{box-shadow: 0 10px 25px rgba(60,72,88,.15)!important;
+}
+
+
+.estyle{
+		 background-image: url(http://landrick.react.themesbrand.com/static/media/bg.a1d47780.png); 
+
+	    /*background-image: url(http://landrick.react.themesbrand.com/static/media/services.e803563c.svg);*/
+	    background-color: white;
+	    border: 1px solid;
+	   /* padding: 10px;
+	    text-align: center;
+	    width: 445px;
+	    height: 450*/
+
+	    /*vertical-align: middle;
+	    border-style: none;
+	    box-sizing: border-box;*/
+}
