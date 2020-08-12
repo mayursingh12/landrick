@@ -51,7 +51,7 @@
 	  text-align:left;
 
 	  font-size: 30px;
-	  padding-top: 100px;
+	  padding-top: 80px;
 	  
 }
 .heading-text2{
@@ -117,30 +117,64 @@
 .avtar1{
 	height: 65px;
 	width: 65px;
-	text-align: center; 
-	display: block;
-	margin-left: 280px;
-	margin-top: 80px;
+	
 	border-radius: 50%;
 }
+ 
+ .avtar3{
+ 	width: 445px;
+ 	height: 448px
+ }
 
 
-.show{box-shadow: 0 10px 25px rgba(60,72,88,.15)!important;
+.show1{
+	box-shadow: 0 10px 25px rgba(60,72,88,.15)!important;
+	padding: 30px;
+	margin-right: 80px;
+    margin-left: 80px;
+    font-size: 600;
+
+}
+
+	
+   .show {
+    text-align: center;
+    font-weight: 600;
+
 }
 
 
 .estyle{
 		 background-image: url(http://landrick.react.themesbrand.com/static/media/bg.a1d47780.png); 
-
-	    /*background-image: url(http://landrick.react.themesbrand.com/static/media/services.e803563c.svg);*/
 	    background-color: white;
 	    border: 1px solid;
-	   /* padding: 10px;
-	    text-align: center;
-	    width: 445px;
-	    height: 450*/
+	 
+}
 
-	    /*vertical-align: middle;
-	    border-style: none;
-	    box-sizing: border-box;*/
+.head1{
+	font-size: 30px;
+	margin-bottom: 24px;
+}
+
+.head2{
+	font-size: 16px sans-serif;
+	color:  #8794a8;
+	margin: 0px 0px 16px;
+}
+
+.head3{font-size: 16px sans-serif;
+	color:  #8794a8;
+	margin: 0px 0px 7px;
+
+}
+.calvin{margin: 16px 0px;
+
+}
+
+.butn{
+	background-color: #2f55d4
+}
+
+.butn:hover{background-color: #1d3892
+
 }
