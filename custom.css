@@ -178,3 +178,36 @@
 .butn:hover{background-color: #1d3892
 
 }
+
+.topnav{
+	position: fixed;
+	background-color: transparent;
+}
+
+.nav-link:hover{ color: white
+	       
+
+}
+
+.nav-link{ color: #99abeb
+
+}
+
+
+.stylo1{ background-color: #202942;
+	     padding: 60px 0px;
+	     position: relative;
+	     color: #adb5bd
+
+}
+
+.stylo2{ font-size: 30px;
+	     margin-bottom: 10px
+
+}
+
+.test4{ text-align: left;
+
+
+}
+     

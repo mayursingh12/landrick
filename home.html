@@ -1,21 +1,72 @@
 <!DOCTYPE html>
 <html>
-   <head>
+   <head class="topnav">
       <title></title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-      <link rel="stylesheet" href="custom.css">
-      <!-- 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-         -->	
+    
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+
       <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+      <link rel="stylesheet" href="custom.css">
+
+
+
+      <script type="text/javascript">
+        
+        $(document).ready(function(){
+          $('.dropdown-item').click(function(){
+            $('.dropdown-item').removeClass("active");
+            
+            $(this).addClass("active");
+          });
+
+        });
+
+      </script>
+
+
+
    </head>
    <!-- <body style="background-color: #2f56d4; background-image: url(http://landrick.react.themesbrand.com/static/media/bg.a1d47780.png);"  >
       -->	
    <body>
+
+
+<div class="topnav">
+<ul class="nav nav-pills">
+  <li class="nav-item">
+
+
+    <a class="nav-link active-nav-bar" href="#">Active</a>
+  </li>
+  <li class="nav-item dropdown active-nav-bar">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item active-nav-bar"  href="#">Action</a>
+      <a class="dropdown-item active-nav-bar" href="#">Another action</a>
+      <a class="dropdown-item active-nav-bar" href="#">Something else here</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">Separated link</a>
+    </div>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link " href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+</div>
+
    	<div class="section1">
       <div class="container">
+
+
 
 
          <!-- section 1 -->
@@ -421,68 +472,16 @@
 
 <!-- SECTION9 END -->
 
+
+
 <!-- SECTION 10 -->
-
-
-<!-- <div id="sonu" class="row" style="padding-bottom: 50px">
-   <div class="col">
-      <div style="padding: 30px">
-         <p class="heading-text1" >We are here to help you</p>
-         <div style="padding-bottom: 10px">
-            <p style="color: grey">Start working with <span style="color: #2f55d4"> <b>Landrick</b></span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
-         </div>
-         <p style="color: grey">
-            <i class=" fa fa-check-circle-o text-success " ></i>
-            Digital Marketing Solutions for Tomorrow
-         </p>
-         <p style="color: grey">
-            <i class=" fa fa-check-circle-o text-success" ></i>
-            Our Talented & Experienced Marketing Agency
-         </p>
-         <p style="color: grey">
-            <i class=" fa fa-check-circle-o text-success" ></i>
-            Create your own skin to match your brand
-         </p>
-      </div>
-   </div>
-   <div class="col">
-      <div style="text-align: center; box-shadow: 0 10px 25px rgba(60,72,88,.15)!important; padding-bottom: 18px">
-         <img src="http://landrick.react.themesbrand.com/static/media/01.0f84cfe8.jpg" class="avtar1">
-         </img>
-         <div style="font-size: 20px; text-align: center; padding-top: 10px">calvin carlo
-         </div>
-         <div style="text-align: center; margin-right: 110px; margin-left: 110px; color: grey; margin-top: 10px; box-sizing: border-box;">
-            Start working with  Landrick that can provide everything you need.
-         </div>
-         <div style="padding-top: 10px">
-         <label for="name"><b>Name</b></label>
-         <input type="text" placeholder="Enter name" name="name" required>
-          </div><br>
-          <div>
-         <label for="name"><b>Email</b></label>
-         <input type="text" placeholder="Enter Email" name="email" required>
-         </div>
-         <div style=" margin: 20px; margin-bottom: 20px">
-             <a class="btn btn-primary" href="">Request Call <i class="fa fa-arrow-right"></i>
-             </a>
-         </div>
-      </div>
-   </div>
-</div>
-</div>
-</div>
-</div>
-</div>
- -->
-
-
 
 
 <div class="row" style="margin-top: 50px; padding: 0px 20px 0px 20px">
    <div class="col">
     <div style="padding-left: 30px; padding-top: 100px">
       <div class="head1">
-         <h2>We are here to help you</h2>
+         <h3>We're here to help you</h3>
       </div>
       <div class="head2">
          Start working with <span style="color: #2f55d4"> <b> Landrick</b></span> that can provide everything you need to generate awareness, drive traffic, connect.
@@ -548,14 +547,18 @@
        </div>
      </div>
 
-<!-- end -->
+<!-- section 10 end -->
+
+<!-- section 11 -->
 
 
 <div class="row" style="padding: 5%">
+      <i class="fa fa-question-circle-o" style="color: blue"></i>
+
   <div class="col">
     <div>
       <div style="margin-bottom: 10px" >
-       <h5> How our Landrick work ?</h5>
+       <h5> How our <span style="color: #2f55d4"> Landrick</span> work ?</h5>
       </div>
       <div style="color: grey">
         Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.
@@ -565,15 +568,16 @@
     </div>
   </div>
   
+      <i class="fa fa-question-circle-o" style="color: blue"></i>
 
 
   <div class="col">
     <div>
-      <div style="margin-bottom: 10px">
+      <div style="margin-bottom: 10px;">
         <h5>What is the main process open account ?</h5>
       </div>
-      <div style="  color: grey">
-        If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact
+      <div style="  color: grey;">
+      If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact
       </div>
     </div>
   </div>
@@ -583,47 +587,135 @@
 
 
 
-<div class="row" style="padding-left: 5%; padding-left: 5%">
+<div class="row" style="padding: 20px 64px 64px 64px">
+      <i class="fa fa-question-circle-o" style="color: blue"></i>
+
   <div class="col">
     <div>
       <div style="margin-bottom: 10px" >
 
-       <h5> How our Landrick work ?</h5>
+       <h5> How to make unlimited data entry ?
+
+</h5>
       </div>
       <div style="color: grey">
-        Due to its widespread use as filler text for layouts, non-readability is of great importance: human perception is tuned to recognize certain patterns and repetitions in texts.
+        Furthermore, it is advantageous when the dummy text is relatively realistic so that the layout impression of the final publication is not compromised.
 
 
       </div>
     </div>
   </div>
   
-
+    <i class="fa fa-question-circle-o" style="color: blue"></i>
+  
 
   <div class="col">
     <div>
       <div style="margin-bottom: 10px">
-        <h5>What is the main process open account ?</h5>
+        <h5>Is <span style="color: #2f55d4"> Landrick</span> safer to use with my account ?</h5>
       </div>
       <div style="  color: grey">
-        If the distribution of letters and 'words' is random, the reader will not be distracted from making a neutral judgement on the visual impact
+       The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin.
       </div>
     </div>
   </div>
 </div>
 
-<div class="row">
+<div class="row" style=" padding: 5%">
   <div class="col">
     <div>
     <div style=" margin-bottom: 20px; margin-top: 50px; text-align: center;">
      <h2> Have Question ? Get in touch!</h2>
    </div>
    <div style=" text-align: center; color: grey; margin-right: 300px; margin-left: 300px ">
-     Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect
+     Start working with <b><span style="color: #2f55d4"> Landrick</span></b> that can provide everything you need to generate awareness, drive traffic, connect
    </div>
   </div>
   </div>
 </div>
+   
+   <!-- section 11 end -->
+
+   <!-- section 12 -->
+
+  <!--  <footer class="stylo1">
+    <div class="container">
+      <div class="col">
+        <div class="row">
+          <div style="">
+          <div style="padding: 20px">
+            <h1>landrick</h1>
+          </div>
+        </div>
+          </div>
+        <div class="text4">
+           <p> Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+       </div>
+        <div class="row">
+          <div>Company
+          </div>
+        </div>
+        <div class="row">
+          <div>Usefull Links
+          </div>
+        </div>
+        <div class="row">
+          <div>
+            Newsletter
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </div>   
+      -->
+
+  <footer class="stylo1">
+    <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <div class="stylo2">landrick</div>
+     
+      <div>
+        Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.
+      </div>
+    </div>
+    <div class="col-sm">
+      <div>One of three columns</div>
+      
+      <div>about us</div>
+      <div>services</div>
+      <div>team</div>
+      <div>pricing</div>
+      <div>projects</div>
+      <div>carrers</div>
+      <div>blogs</div>
+      <div>login</div>
+    </div>
+    <div class="col-sm">
+      <div> One of three columns</div>
+     
+     <div> terms of services</div>
+     <div>privacy policy</div>
+     <div>documentation</div>
+     <div>changelog</div>
+     <div>components</div>
+    </div>
+     <div class="col-sm">
+      <div>One of three columns</div>
+      
+      <div>
+        Sign up and receive the latest tips via email.
+      </div>
+    </div>
+  </div>
+</div>
+
+   </footer>
+
 
 
 
@@ -641,31 +733,3 @@
 
 
 
-<!-- style="background: url("/static/media/cta.fc7c709b.jpg") center center;"
-
-
-
-
-  <!-- <div class="row "> -->
-         <!-- <div class="col"> -->
-            <!-- <div style="background-image: url(http://landrick.react.themesbrand.com/static/media/services.e803563c.svg);background-color: white; height: 500px; margin-left: 20px" > -->
-        <!--    <div class="estyle"> 
-            <p class="estyle">fdgrtghretyhetryffffffflllllllllllllllllllmdfjk;dshgfkjdhgkjdshfjkghsdkjgh;dfkjgh;kdjgfdhgjkfdhgjkhgs;kjfhd;jgd;kfjghdfjhg;fdjg;kfdh;gjkhfd;jkgh;fdkjhg;dfjkhg;djkgh;fdhjg;djkhg;gjkh;dfjk</p>
-
-
-            </div>
-
-         </div> -->
-         <!-- <div class="col">
-            <div style="background-color: white; height: 500px; margin-right: 20px;text-align: center;">
-               <h5>health insurence</h5>
-            </div>
-         </div -->
-         <!-- section 3 end -->
-
-         <!-- </div> -->
-         <!-- 
-            <img src="http://landrick.react.themesbrand.com/static/media/services.e803563c.svg
-            " alt="Paris" style="width:500px">
-             -->
-      <!-- </div> -->
