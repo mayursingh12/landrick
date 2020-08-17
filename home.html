@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-   <head class="topnav">
+   <head id="topnav" class="defaultscroll sticky">
       <title></title>
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -25,19 +25,44 @@
             $(this).addClass("active");
           });
 
+          $("aside").click(function(){
+            window.scrollTo({
+  top: 0, 
+  left: 0, 
+  behavior: 'smooth'
+});
+          });
+
+          
+
         });
 
       </script>
+</head>
+   
 
-
-
-   </head>
    <!-- <body style="background-color: #2f56d4; background-image: url(http://landrick.react.themesbrand.com/static/media/bg.a1d47780.png);"  >
       -->	
    <body>
+   <!--  <nav class="navbar navbar-expand nav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">link1</a></li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">link2</a></li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">link3</a></li>
+          <li class="nav-item">
+          <a class="nav-link" href="#">link4</a></li>
+        
+      </ul>
+      
+    </nav> -->
 
 
 <div class="topnav">
+     <img src="http://landrick.react.themesbrand.com/static/media/logo-dark.f4254110.png" height="24"> 
+
 <ul class="nav nav-pills">
   <li class="nav-item">
 
@@ -62,12 +87,11 @@
   </li>
 </ul>
 </div>
-
+<!-- http://landrick.react.themesbrand.com/static/media/logo-light.60e71704.png
+ -->
    	<div class="section1">
+     
       <div class="container">
-
-
-
 
          <!-- section 1 -->
          
@@ -278,12 +302,12 @@
          <!-- section 5 -->
 
  <div class="row" style="background-image: url(http://landrick.react.themesbrand.com/static/media/cta.fc7c709b.jpg); 
-                         background-position: center center; margin-bottom: 100px" >
+                         background-position: center center; margin-bottom: 100px; padding-top: 48px; padding-bottom: 48px;" >
    <div class="col offset-7" >
       <!-- <img src="http://landrick.react.themesbrand.com/static/media/cta.fc7c709b.jpg"> -->
       
       <div style="padding: 50px">
-           <div style="background-color: white; padding: 30px; border-radius: 5px">
+           <div style="background-color: white; padding: 48px; border-radius: 5px">
           <div class="row">
              <div class="col">
                <p class="heading-text2"> Advantages</p>
@@ -302,14 +326,14 @@
           </p> -->
           <div class="row">
              <div class="col">
-             <div style="padding: 5px">
-                 <i class="fa fa-umbrella" aria-hidden="true"> &nbsp;&nbsp;Protection </i>
+             <div style="padding: 5px;">
+                 <i class="fa fa-umbrella" aria-hidden="true" style="color: blue"> </i> &nbsp;&nbsp;Protection
              </div>
             
              </div>
              <div class="col">
                <div style="padding: 5px">
-                  <i class="fa fa-money" aria-hidden="true">&nbsp;&nbsp;Save on rates </i>
+                  <i class="fa fa-user" aria-hidden="true" style="color: blue"></i>&nbsp;&nbsp;Customers 
                   
                </div>
                
@@ -320,13 +344,13 @@
           <div class="row">
              <div class="col">
                <div style="padding: 5px">
-                    <i class="fa fa-umbrella" aria-hidden="true"> &nbsp;&nbsp;Protection </i>
+                    <i class="fa fa-money" aria-hidden="true" style="color: blue"></i>&nbsp;&nbsp;Save on rates 
                </div>
            
              </div>
              <div class="col">
-               <div style="padding: 5px">
-                   <i class="fa fa-money" aria-hidden="true">&nbsp;&nbsp;Save on rates </i>
+               <div style="padding: 5px"></div>
+                   <i class="fa fa-bolt" aria-hidden="true" style="color: blue"></i>&nbsp;&nbsp; Fast Process
                   
                </div>
               
@@ -371,56 +395,120 @@
 <!-- section 6 end -->
 
  <div class="row">
-   <div class="col ">
-      <div class="box1"><i class="fa fa-home" aria-hidden="true"></i>
-        Home Insurence
+   <div class="col">
+      <div class="box1">
+        <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-home" aria-hidden="true"></i>
+        </span>
+      
+      <span>Home Insurance</span>
+       
       </div>
    </div>
    <div class="col">
 
-      <div class="box1"><i class="fa fa-users" aria-hidden="true"></i>
-        Group Mediclaim
+      <div class="box1">
+
+        <!-- 
+        <i class="fa fa-users" aria-hidden="true"></i>
+        Group Mediclaim -->
+
+         <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-users" aria-hidden="true"></i>
+        </span>
+      
+      <span>Group Mediclaim</span>
+       
       </div>
    </div>
    <div class="col">
-      <div class="box1"><i class="fa fa-user" aria-hidden="true"></i>
-        Retirment Plans
+      <div class="box1">
+      <!--   <i class="fa fa-user" aria-hidden="true"></i>
+        Retirment Plans -->
+      
+         <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-users" aria-hidden="true"></i>
+        </span>
+      
+      <span>Retirment Plans</span>
       </div>
    </div>
 </div>
 
 <div class="row">
    <div class="col">
-      <div class="box1"><i class="fa fa-car" aria-hidden="true"></i>
-       Travel Insurence
+      <div class="box1">
+      <!--   <i class="fa fa-car" aria-hidden="true"></i>
+       Travel Insurence -->
+      
+         <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-car" aria-hidden="true"></i>
+        </span>
+      
+      <span>Travel Insurence</span>
       </div>
    </div>
    <div class="col">
-       <div class="box1"><i class="fa fa-truck" aria-hidden="true"></i>
-       Taxi Insurence
+       <div class="box1">
+       <!--  <i class="fa fa-truck" aria-hidden="true"></i>
+       Taxi Insurence -->
+     
+         <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-truck" aria-hidden="true"></i>
+        </span>
+      
+      <span>Taxi Insurnece</span>
       </div>
    </div>
    <div class="col">
-       <div class="box1"><i class="fa fa-codiepie" aria-hidden="true"></i>
-       Corporate Insurence
+       <div class="box1">
+      <!--   <i class="fa fa-codiepie" aria-hidden="true"></i>
+       Corporate Insurence -->
+     
+         <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-codiepie" aria-hidden="true"></i>
+        </span>
+      
+      <span>Corporate Isurence</span>
       </div>
    </div>
 </div>
 
 <div class="row">
    <div class="col">
-       <div class="box1"><i class="fa fa-heartbeat" aria-hidden="true"></i>
-       Cancer Insurence
+       <div class="box1">
+       <!--  <i class="fa fa-heartbeat" aria-hidden="true"></i>
+       Cancer Insurence -->
+      
+         <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-heartbeat" aria-hidden="true"></i>
+        </span>
+      
+      <span>Cancer Insurence</span>
       </div>
    </div>
    <div class="col">
-       <div class="box1"><i class="fa fa-line-chart" aria-hidden="true"></i>
-       Tax Saving Investment
+       <div class="box1">
+       <!--  <i class="fa fa-line-chart" aria-hidden="true"></i>
+       Tax Saving Investment -->
+     
+         <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-line-chart" aria-hidden="true"></i>
+        </span>
+      
+      <span>Tax Saving Investment</span>
       </div>
    </div>
    <div class="col">
-       <div class="box1"><i class="fa fa-child" aria-hidden="true" ></i>
-       Child Saving Plans
+       <div class="box1">
+      <!--   <i class="fa fa-child" aria-hidden="true" ></i>
+       Child Saving Plans -->
+      
+         <span style="height: 50px; width: 50px; background: linear-gradient(45deg,transparent,rgba(47,85,212,.15)); border-radius: 50%; text-align: center; padding: 3%; margin-right: 10px">
+          <i class="fa fa-child" aria-hidden="true"></i>
+        </span>
+      
+      <span> Child Saving Plans</span>
       </div>
    </div>
 
@@ -631,8 +719,14 @@
      Start working with <b><span style="color: #2f55d4"> Landrick</span></b> that can provide everything you need to generate awareness, drive traffic, connect
    </div>
   </div>
-  </div>
+  <div style="text-align: center; margin-top: 20px; margin-bottom: 20px"> 
+<a class="btn btn-primary" href="#" class="fa fa-phone" ><i class="fa fa-phone" aria-hidden="true"></i> Contact us
+    </a>
 </div>
+  </div>
+
+</div>
+
    
    <!-- section 11 end -->
 
@@ -677,14 +771,20 @@
     <div class="container">
   <div class="row">
     <div class="col-sm">
-      <div class="stylo2">landrick</div>
+      <div class="stylo2">Landrick.</div>
      
-      <div>
+      <div style="margin-bottom: 20px">
         Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.
       </div>
+      <i class="fa fa-facebook-official" aria-hidden="true"></i>
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      <i class="fa fa-twitter-square" aria-hidden="true"></i>
+
+
     </div>
     <div class="col-sm">
-      <div>One of three columns</div>
+      <div class="stylo2">Company</div>
       
       <div>about us</div>
       <div>services</div>
@@ -696,7 +796,7 @@
       <div>login</div>
     </div>
     <div class="col-sm">
-      <div> One of three columns</div>
+      <div class="stylo2">Useful Links</div>
      
      <div> terms of services</div>
      <div>privacy policy</div>
@@ -705,21 +805,46 @@
      <div>components</div>
     </div>
      <div class="col-sm">
-      <div>One of three columns</div>
+      <div class="stylo2">NewsLetter</div>
       
-      <div>
+      <div style="margin-bottom: 10px">
         Sign up and receive the latest tips via email.
       </div>
+      <div>
+        <div>
+          <div>
+            <input class="form-control form-control-lg" class=" fa fa-envelope-o" aria-hidden="true" type="text" placeholder="Your email"></div>
+          <button type="button" class="btn btn-info btn-block">subscribe</button>
+        </div>
+
+
+       
+      </div>
+      
+
     </div>
   </div>
 </div>
 
    </footer>
+   
+   <footer class="stylo3 stylo1" >
 
+    <div class="row">
+      <div class="col">
+        <div style="text-align: center;">© 2020-21 Landrick. Develop by Themesbrand.</div>
+      </div>
+    <div class="col">
+      <div style="text-align: center;">
+        
+    <a href="http://www.credit-card-logos.com/">
+      <img alt="Credit Card Logos" title="Credit Card Logos" src="http://www.credit-card-logos.com/images/multiple_credit-card-logos-2/credit_card_logos_43.gif" width="179" height="30" border="0" /></a>
+     </div>
+   </div>
 
-
-
-
+  </div>
+</footer>
+<aside role="button" aria-label="Scroll to top of page" tabindex="0" data-testid="react-scroll-up-button" class="classForContainer classForTransition" style="height: 36px; width: 36px;"><i><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up icons"><g><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></g></svg></i></aside>
 
 
 
